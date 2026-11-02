@@ -1,7 +1,8 @@
+<p align="center">
+  <img src="assets/logo.png" alt="P2PJack — виртуальная локальная сеть для игр" width="100%">
+</p>
+
 # P2PJack
-
-<img width="1280" height="400" alt="image-1793639979529" src="https://github.com/user-attachments/assets/7ea45b08-79ba-4978-9646-6f668f4332b2" />
-
 
 Виртуальная локальная сеть для игр через интернет: аналог Hamachi или Radmin VPN, но **без своего сервера**.
 Компьютеры соединяются напрямую, а игры видят друг друга так, будто стоят в одной локалке.

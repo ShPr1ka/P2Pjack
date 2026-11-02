@@ -1,0 +1,22 @@
+[package]
+name = "p2pjack-setup"
+version = "0.1.0"
+edition = "2024"
+description = "Установщик P2PJack"
+
+[[bin]]
+name = "P2PJack-Setup"
+path = "src/main.rs"
+
+[dependencies]
+p2pjack = { path = ".." }
+anyhow = "1.0.104"
+eframe = { version = "0.37.0", default-features = false, features = ["default_fonts", "glow"] }
+flate2 = "1.1.10"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61.2", features = ["Win32_System_Registry", "Win32_Foundation"] }
+
+[build-dependencies]
+flate2 = "1.1.10"
+winresource = "0.1.34"
